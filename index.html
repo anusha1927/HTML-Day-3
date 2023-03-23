@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>HTML Day 3</title>
+	</head>
+	<body>
+		<h1>HTML Day 3</h1>
+		<hr />
+		<h2>Write a code to insert an image?</h2>
+		<p>
+			< img src="./img.jpg" alt="girl" width="200" height="200" title="girl" >
+		</p>
+		<p>
+			<img src="./img.jpg" alt="girl" width="200" height="200" title="girl" />
+		</p>
+		<h2>
+			create a form contain input fields like name, age, email and contact?
+		</h2>
+		<pre>
+< form action="#" >
+    < label for="name" >Name:< / label >
+    < input type="text" name="name" id="name" placeholder="name" value="" required />< br / >< br / >
+
+    < label for="age" >Age:< / label >
+    < input type="number" name="age" id="age" placeholder="age" value="" max="100" required / >< br / >< br / >
+
+    < label for="email" >Email:< / label >
+    < input type="email" name="email" id="email" placeholder="email" value="" required / >< br / >< br / >
+
+    < label for="contact" >Contact:< / label >
+    < input type="tel" name="contact" id="contact" placeholder="contact" value="" pattern="[0-9]{10}" required / >< br / >< br / >
+
+    < input type="submit" value="submit" />
+< / form >
+        </pre
+		>
+		<form action="#">
+			<label for="name">Name:</label>
+			<input
+				type="text"
+				name="name"
+				id="name"
+				placeholder="name"
+				value=""
+				required
+			/>
+			<br /><br />
+
+			<label for="age">Age:</label>
+			<input
+				type="number"
+				name="age"
+				id="age"
+				placeholder="age"
+				value=""
+				max="100"
+				required
+			/>
+			<br /><br />
+
+			<label for="email">Email:</label>
+			<input
+				type="email"
+				name="email"
+				id="email"
+				placeholder="email"
+				value=""
+				required
+			/>
+			<br /><br />
+
+			<label for="contact">Contact:</label>
+			<input
+				type="tel"
+				name="contact"
+				id="contact"
+				placeholder="contact"
+				value=""
+				pattern="[0-9]{10}"
+				required
+			/>
+			<br /><br />
+
+			<input type="submit" value="submit" />
+		</form>
+
+		<h2>Create a table and explain how to acheive colspan?</h2>
+		<table border="1">
+			<thead>
+				<tr>
+					<th>S.no.</th>
+					<th>Item</th>
+					<th>Price</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>1.</td>
+					<td>Pen</td>
+					<td>Rs.5</td>
+				</tr>
+				<tr>
+					<td>2.</td>
+					<td>Book</td>
+					<td>Rs.20</td>
+				</tr>
+			</tbody>
+			<tfoot>
+				<tr>
+					<td>Total:</td>
+					<td colspan="2">Rs.25</td>
+				</tr>
+			</tfoot>
+		</table>
+		<h2>
+			Create one form that contain name input, password input, 3 radio
+			buttons(HTML,CSS,JS), 2 checkboxes(Male,Female) and one submit button.
+			When you click on that button the value should be shown in the URL?
+		</h2>
+		<pre>
+< form action="#" >
+< label for="name" >Name:< / label >
+< input type="text" name="name" id="name" placeholder="name" value="" required />< br / >< br / >
+
+< label for="pass" >Password:< / label >
+< input	type="password"	name="pass"	id="pass" placeholder="password" value="" required / >< br / >< br />
+
+Select Course:
+< input type="radio" name="course" id="html" value="html" / >
+< label for="html" >HTML< / label >
+< input type="radio" name="course" id="css" value="css" / >
+< label for="css" >CSS< / label >
+< input type="radio" name="course" id="js" value="js" / >
+< label for="js" >JS< / label >
+< br / >< br / >
+
+Select Gender:
+< input type="checkbox" name="gender" id="male" value="male" / >
+< label for="male" >MALE< / label >
+< input type="checkbox" name="gender" id="female" value="female" / >
+< label for="female" >FEMALE< / label >
+< br / >< br / >
+
+< input type="submit" value="submit" / >
+		
+< / form >
+        </pre
+		>
+		<form action="#">
+			<label for="name">Name:</label>
+			<input
+				type="text"
+				name="name"
+				id="name"
+				placeholder="name"
+				value=""
+				required
+			/>
+			<br /><br />
+
+			<label for="pass">Password:</label>
+			<input
+				type="password"
+				name="pass"
+				id="pass"
+				placeholder="password"
+				value=""
+				required
+			/>
+			<br /><br />
+
+			Select Course:
+			<input type="radio" name="course" id="html" value="html" />
+			<label for="html">HTML</label>
+			<input type="radio" name="course" id="css" value="css" />
+			<label for="css">CSS</label>
+			<input type="radio" name="course" id="js" value="js" />
+			<label for="js">JS</label>
+			<br /><br />
+
+			Select Gender:
+			<input type="checkbox" name="gender" id="male" value="male" />
+			<label for="male">MALE</label>
+			<input type="checkbox" name="gender" id="female" value="female" />
+			<label for="female">FEMALE</label>
+			<br /><br />
+
+			<input type="submit" value="submit" />
+		</form>
+	</body>
+</html>
